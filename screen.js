@@ -1,4 +1,3 @@
-
 const body = document.querySelector("body")
 
 function controlBG(event){
@@ -11,7 +10,6 @@ function controlBG(event){
     }else if(sizeOfWindow > 0 && sizeOfWindow < 300){
         body.style.backgroundColor = "#112111";
     }
-    
 }
 
 function init(){
